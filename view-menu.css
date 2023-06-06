@@ -1,0 +1,912 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,400&family=Montserrat:wght@500&family=Roboto+Serif:wght@600&family=Roboto:wght@100&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    box-sizing: border-box;}
+  
+  body{
+  
+    margin: 0; 
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+
+  .header-login{
+    display: flex;
+    width: 85%;
+    height: 100px;
+    /*border: 1px solid red;*/
+    justify-content: space-between;
+    /*z-index: 9999;*/
+    top: 0;
+    position:absolute;
+   
+    
+  }
+  
+  
+  .login-logo{
+    height: 100px; /*70*/
+    width: 250px; /*150*/
+    /*border: 1px solid red;*/
+    /*margin-left: 178px;*/
+    margin-top: 4px;
+    /*background-image: url(images/default.png);*/
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    /*margin-right: 178px;*/
+    margin-top: 15px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: black ;color: white;}/*#f1f1f1*/
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: black;
+    
+  }
+
+.our-product{
+    display: flex;
+    height: 772px;
+    width: 100%;
+    /*border: 1px solid red;*/
+    background-image: url(images/yumurta-tezgah.jpg);
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+ 
+  
+
+  .our-product-baslik{
+
+    height: 40px;
+    width: 551px;
+    /*border: 1px solid white;*/
+    color: white;
+    font-size: 50px; /*36px*/
+    text-align: center;
+    margin: 50px;
+    
+
+
+  }
+  .our-product-content{
+
+    height: 60px;
+    width: 783px;
+   /* border: 1px solid white;*/
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    
+    
+    
+    
+
+
+  }
+
+  .butonlar{
+    display: flex;
+    height: 91px;
+    width: 1141px;
+    /*border: 1px solid white;*/
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+  }
+  .our-product-butons{
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    width: 165px;
+    height: 48px;
+    font-weight: 400;
+    cursor: pointer;
+    
+  }
+  .our-product-butons:hover{
+    background-color: white;
+    color: black;
+  }
+
+  .pizza-menu{
+    
+    
+    width: 100%;
+    height: 1200px;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    
+    
+    
+  }
+
+  .pizza-menu h1 {
+    
+    font-size: 60px;
+    color: #E14D2A;
+    /*border: 1px solid black;*/
+    text-align: center;
+  }
+.pizza-container{
+  display: grid;
+  grid-template-columns: 555px 555px  ;
+  grid-template-rows: 308px 308px 308px 308px ;
+  width: 1140px;
+  height: 1015px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  column-gap: 30px;
+  row-gap: 30px;
+
+}
+.pizaa{
+  display: flex;
+  /*width:555px ;
+  height: 308px;*/
+  /*border: 1px solid black;*/
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.pizaa >div{
+  width: 248px;
+  height:255px ;
+  /*border: 1px solid brown;*/
+  
+}
+
+.pizaa-sol-1{
+ background-size: cover;
+ background-position: center;
+ background-image: url(images/pizzaMenü/pizza-1.jpg);
+}
+.pizaa-sol-2{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/pizzaMenü/pizza-2.jpg);
+}
+.pizaa-sol-3{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/pizzaMenü/pizza-3.jpg);
+}
+
+.pizaa-sol-4{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/pizzaMenü/pizza-4.jpg);
+  }
+.pizaa-sol-5{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/pizzaMenü/pizza-5.jpg);
+}
+
+.pizaa-sol-6{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/pizzaMenü/pizza-6.jpg);
+}
+
+.pizaa-sag-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.pizaa-sag-1 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.pizaa-sag-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.pizaa-sag-2 >div {
+  width: 220px;
+  height: 70px;
+ /* border: 1px solid black;*/
+}
+
+.pizaa-sag-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.pizaa-sag-3 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.pizaa-sag-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.pizaa-sag-4 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.pizaa-sag-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.pizaa-sag-5 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.pizaa-sag-6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.pizaa-sag-6 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.add-to-cart{
+  width:149px ;
+  height: 42px;
+  background-color:#E0E0E0 ;
+  color: black;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.add-to-cart:hover{
+  background-color: #C0C0C0;
+  color: black;
+
+}
+/* cookies menu */
+
+.cookies-menu{
+  
+  width: 100%;
+  height: 1250px;
+  border: 1px solid black;
+  background-color: black;
+
+}
+
+.cookies-baslik{
+
+  width: 707px;
+  height: 50px;
+  /*border: 1px solid white;*/
+  margin: auto;
+  margin-top: 50px;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+
+/* cookies grid */
+
+
+
+.cookies-container{
+  display: grid;
+  grid-template-columns: 555px 555px  ;
+  grid-template-rows: 308px 308px 308px 308px ;
+  width: 1140px;
+  height: 1015px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  column-gap: 30px;
+  row-gap: 30px;
+
+}
+.cookies{
+  display: flex;
+  /*width:555px ;
+  height: 308px;*/
+  border: 1px solid black;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.cookies >div{
+  width: 248px;
+  height:255px ;
+ /* border: 1px solid brown;*/
+  
+}
+
+.cookies-sol-1{
+ background-size: cover;
+ background-position: center;
+ background-image: url(images/tatlılar/tatlı-1.jpg);
+}
+.cookies-sol-2{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/tatlılar/tatlı-2.jpg);
+}
+.cookies-sol-3{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/tatlılar/tatlı-3.jpg);
+}
+
+.cookies-sol-4{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/tatlılar/tatlı-8.jpg);
+  }
+.cookies-sol-5{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/tatlılar/tatlı-5.jpg);
+}
+
+.cookies-sol-6{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/tatlılar/tatlı-6.jpg);
+}
+
+.cookies-sag-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.cookies-sag-1 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.cookies-sag-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.cookies-sag-2 >div {
+  width: 220px;
+  height: 70px;
+ /* border: 1px solid black;*/
+}
+
+.cookies-sag-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.cookies-sag-3 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.cookies-sag-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.cookies-sag-4 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.cookies-sag-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.cookies-sag-5 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.cookies-sag-6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.cookies-sag-6 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.add-to-cart{
+  width:149px ;
+  height: 42px;
+  background-color:#E0E0E0 ;
+  color: black;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.add-to-cart:hover{
+  background-color: #C0C0C0;
+  color: black;
+
+}
+
+
+
+/* breads menu */
+
+.breads-menu{
+  
+  width: 100%;
+  height: 1250px;
+  border: 1px solid #E0E0E0;
+  background-color: #E0E0E0;
+
+}
+
+.breads-baslik{
+
+  width: 707px;
+  height: 50px;
+  /*border: 1px solid white;*/
+  margin: auto;
+  margin-top: 50px;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+
+/* cookies grid */
+
+
+
+.breads-container{
+  display: grid;
+  grid-template-columns: 555px 555px  ;
+  grid-template-rows: 308px 308px 308px 308px ;
+  width: 1140px;
+  height: 1015px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  column-gap: 30px;
+  row-gap: 30px;
+
+}
+.breads{
+  display: flex;
+  /*width:555px ;
+  height: 308px;*/
+  /*border: 1px solid black;*/
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.breads >div{
+  width: 248px;
+  height:255px ;
+ /* border: 1px solid brown;*/
+  
+}
+
+.breads-sol-1{
+ background-size: cover;
+ background-position: center;
+ background-image: url(images/ekmekler/ekmek-1.jpg);
+}
+.breads-sol-2{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/ekmekler/ekmek-2.jpg);
+}
+.breads-sol-3{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/ekmekler/ekmek-3.jpg);
+}
+
+.breads-sol-4{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/ekmekler/ekmek-4.jpg);
+  }
+.breads-sol-5{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/ekmekler/ekmek-5.jpg);
+}
+
+.breads-sol-6{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/ekmekler/ekmek-6.jpg);
+}
+
+.breads-sag-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.breads-sag-1 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.breads-sag-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.breads-sag-2 >div {
+  width: 220px;
+  height: 70px;
+ /* border: 1px solid black;*/
+}
+
+.breads-sag-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.breads-sag-3 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.breads-sag-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.breads-sag-4 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.breads-sag-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.breads-sag-5 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.breads-sag-6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.breads-sag-6 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+
+
+
+/* drinks menu */
+
+.drinks-menu{
+  
+  width: 100%;
+  height: 900px;
+  border: 1px solid black;
+  background-color: black;
+
+}
+
+.drinks-baslik{
+
+  width: 707px;
+  height: 50px;
+  /*border: 1px solid white;*/
+  margin: auto;
+  margin-top: 50px;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+
+/* drinks grid */
+
+
+
+.drinks-container{
+  display: grid;
+  grid-template-columns: 555px 555px  ;
+  grid-template-rows: 308px 308px   ;
+  width: 1140px;
+  height: 1015px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  column-gap: 30px;
+  row-gap: 30px;
+
+}
+.drinks{
+  display: flex;
+  /*width:555px ;
+  height: 308px;*/
+  border: 1px solid black;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.drinks >div{
+  width: 248px;
+  height:255px ;
+ /* border: 1px solid brown;*/
+  
+}
+
+.drinks-sol-1{
+ background-size: cover;
+ background-position: center;
+ background-image: url(images/icecekler/drink-1.jpeg);
+}
+.drinks-sol-2{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/icecekler/drink-4.jpeg);
+}
+.drinks-sol-3{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/icecekler/drink-3.jpeg);
+}
+
+.drinks-sol-4{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/icecekler/drink-2.jpeg);
+  }
+
+ 
+
+.drinks-sag-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.drinks-sag-1 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.drinks-sag-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.drinks-sag-2 >div {
+  width: 220px;
+  height: 70px;
+ /* border: 1px solid black;*/
+}
+
+.drinks-sag-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.drinks-sag-3 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+.drinks-sag-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.drinks-sag-4 >div {
+  width: 220px;
+  height: 70px;
+  /*border: 1px solid black;*/
+}
+
+/* FOOTER */ 
+
+
+.footer{
+  display: flex;
+  width: 100%;
+  height: 556px;
+  /*border: 1px solid #E14D2A;*/
+  background-image: url(images/tost.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  
+}
+
+.footer-divs{
+  
+  width: 225px;
+  height: 225px;
+  /*border: 1px solid #E14D2A;*/
+  background-color: white;
+ 
+}
+
+.footer-divs p{
+ 
+  text-align: center;
+  margin: auto;
+}
+.footer-divs h3{
+ 
+  text-align: center;
+  margin: auto;
+  
+}
+
+
+
