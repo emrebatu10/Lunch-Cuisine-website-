@@ -1,2 +1,2 @@
-# Lunch-Cuisine-website-
+# Lunch-Cuisine-website
 The website of a virtual restaurant called Lunch Cuisine.
