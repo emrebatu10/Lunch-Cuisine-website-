@@ -1,0 +1,649 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,400&family=Montserrat:wght@500&family=Roboto+Serif:wght@600&family=Roboto:wght@100&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&display=swap');
+  @import "font-awesome-sprockets";
+  @import "font-awesome";
+
+*{
+  box-sizing: border-box;}
+
+body{
+
+  margin: 0; 
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.header-container {
+  display: flex;
+  background-color: white;
+  /*border: 1px solid black; */
+  width: 100%;
+  height: 156px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.header-container .logo{
+  
+  width: 375px;
+  height: 156px;
+  margin-left: 187px;
+  margin-top: 0px;
+  /*border: 1px solid black;*/
+  
+}
+  
+.logo img{
+  width: inherit;
+  height: inherit;
+ 
+}
+.navbar{
+  display: flex;
+  width: 600px;
+  height: 156px;
+  display: flex;
+  /*border: 1px solid black;*/
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 160px;
+
+}
+
+.navbar > div{
+  display: flex;
+  /*border: 1px solid red;*/
+  width: 190px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar-a > a{
+  
+  background-color: #E14D2A;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  
+}
+
+.navbar-a > a:hover{
+
+  background-color: #f9f9f9;
+  color: black;
+  border: 1px solid #E14D2A;
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+
+.main-container {
+  display: flex;
+  /*border: 2px solid black; */
+  width: 100%;
+  height: 700px;
+  /*justify-content: space-evenly;*/
+  justify-content: center;
+  
+  
+}
+
+.main-left {
+  
+  /*border: 1px solid black;*/
+  width: 570px;
+  height: 680px;
+  border-radius: 35px;
+  row-gap: 50px;
+  flex-direction: column;
+  
+  
+  
+  
+ 
+}
+.main-right {
+  /*border: 1px solid black;*/
+  width: 570px;
+  height: 680px;
+  background: url(images/pizza\ women.jpg);
+  background-size: cover;
+  border-radius: 35px;
+  
+}
+.icon-1{
+  width: 25px;
+  height: 25px;
+ /* border: 1px solid black;*/
+  
+  
+}
+.icon-1 img{
+  
+  width: 25px;
+  height: 25px;
+  
+}
+
+.icon-2{
+  width: 25px;
+  height: 25px;
+  /*border: 1px solid black;*/
+  
+}
+.icon-2 img{
+  
+  width: 25px;
+  height: 25px;
+  
+}
+
+
+.yazı-container{
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  
+  
+}
+.yazı-container-first{
+  margin-top: 100px;
+  font-size: 25px;
+}
+.yazı-container-second{
+  font-size: 45px;
+
+}
+.btn{
+  background-color: white;
+  border: 2px solid #E14D2A;
+  border-radius: 40px;
+  width: 180px;
+  height: 60px;
+  color: black;
+  font-weight: 600;
+  margin-top: 40px;
+
+}
+.btn:hover {
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  border: none;
+
+}
+.icon-section{
+  width: 100%;
+  height: 220px;
+  /*border: 2px solid #E14D2A;*/
+  display: flex;
+  justify-content: center;
+ 
+  
+
+}
+
+.icon-section > div{
+  display: flex;
+  width: 250px;
+  height: 150px;
+  /*border: 2px solid #E14D2A;*/
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+}
+
+.icon-section  img{
+  width: 70px;
+  height: 70px;
+  /*border: 2px solid #E14D2A;*/
+
+
+}
+
+.icon-section  span{
+ /* border: 2px solid #E14D2A;*/
+  font-size: 24px;
+  
+
+}
+
+
+.pizza-menu{
+/*border: 2px solid #E14D2A;*/
+width: 100%;
+height: 550px;
+background-image: url(images/pizza-cover-1.jpg);
+background-size: cover;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.ıtaly-pizza{
+/*border: 2px solid white;*/
+width: 446px;
+height: 70px;
+font-size: 60px;
+color: white;
+margin: auto;
+font-weight: 800;
+}
+
+.menu{
+display: grid;
+grid-template-columns: 320px 320px 320px ; /*366px*/
+grid-template-rows: 620px 620px 620px ; /*550 px ideal*/
+/*border: 2px solid #E14D2A;*/
+width: 100%;
+height: 1300px;
+background-color: black;
+column-gap: 20px;
+row-gap: 20px;
+justify-content: center;
+
+
+
+ 
+ }
+ 
+.menuler{
+  /*display: flex;*/
+  /*border: 1px solid #E14D2A;*/
+  background-color: white;
+  margin-top: 30px;
+  
+  
+  
+  
+  
+
+}
+.pizza-resimler{
+  /*border: 2px solid black;*/
+  height: 258px;
+  width: 320px;
+  
+  
+  
+}
+
+.pizza-resimler img {
+  
+  height: 258px;
+  width: 320px;
+ 
+}
+
+.menuler h1 {
+  /*border: 1px solid black;*/
+  color: black;
+  font-size: 28px;
+  padding: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+ 
+}
+.menuler p {
+  
+ /* border: 1px solid black;*/
+  color: black;
+  font-size: 18px;
+  padding: 30px;
+  margin-top: 0px;
+  
+ 
+}
+
+.order-now-buton{
+  background-color: #E14D2A;
+  border: 1px solid #E14D2A;
+  /*border-radius: 40px;*/
+  width: 100px;
+  height: 50px;
+  color: black;
+  font-weight: 400;
+  float: right;
+  margin-right: 30px;
+}
+
+.order-now-buton:hover {
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  border: none;
+
+}
+
+.menuler h2 {
+  /*border: 1px solid #E14D2A;*/
+  color: black;
+  font-size: 25px;
+  width: 150px;
+  display: inline;
+  margin-left: 30px;
+ 
+ 
+}
+
+.our-story {
+  display: flex;
+  /*border: 1px solid #E14D2A;*/
+  width: 100%;
+  height: 676px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+.our-story >div {
+  
+  /*border: 1px solid #E14D2A;*/
+  width: 37.5%;
+  height: 556px;
+ 
+ 
+}
+.our-story-img {
+  
+  background-image: url(images/pizza-2.jpg);
+  background-size: cover;
+  border-radius: 30px;
+  background-position: center;
+ 
+ 
+}
+.our-story-content {
+  
+  /*background-image: url(images/pizza-2.jpg);*/
+  background-size: cover;
+  align-items: center;
+ 
+ 
+}
+.our-story-header{
+  width: 198px;
+  height: 80px;
+  /*border: 1px solid #E14D2A;*/
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 48px;
+}
+.our-story-paragraf{
+  width: 470px;
+  height: 250px;
+  /*border: 1px solid #E14D2A;*/
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.our-story-liste{
+  width: 174px;
+  height: 80px;
+  /*border: 1px solid #E14D2A;*/
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+
+.our-story-buton{
+  width: 198px;
+  height: 80px;
+  /*border: 1px solid #E14D2A;*/
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.btn-2{
+  background-color: white;
+  border: 3px solid #E14D2A;
+  border-radius: 40px;
+  width: 180px;
+  height: 60px;
+  color: black;
+  font-weight: 600;
+  margin-top: 40px;
+  margin: auto;
+  font-size: 14px;
+  
+
+}
+.btn-2:hover {
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  border: none;
+ 
+
+}
+
+
+
+/* FOOTER */ 
+
+
+.footer{
+  display: flex;
+  width: 100%;
+  height: 556px;
+  /*border: 1px solid #E14D2A;*/
+  background-image: url(images/tost.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  
+}
+
+.footer-divs{
+  
+  width: 225px;
+  height: 225px;
+  /*border: 1px solid #E14D2A;*/
+  background-color: white;
+ 
+}
+
+.footer-divs p{
+ 
+  text-align: center;
+  margin: auto;
+}
+.footer-divs h3{
+ 
+  text-align: center;
+  margin: auto;
+  
+}
+
+
+/* LOGIN PAGE */
+
+.header-login{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  /*border: 1px solid red;*/
+  justify-content: space-between;
+  
+  
+  
+  
+  
+}
+
+.login-logo{
+  height: 70px;
+  width: 150px;
+  /*border: 1px solid red;*/
+  margin-left: 178px;
+  margin-top: 4px;
+  background-image: url(images/default.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.dropbtn {
+  background-color: #E14D2A;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 178px;
+  
+  margin-top: 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.main{
+  display: flex;
+  width: 100%;
+  height: 777px;
+  border: 1px solid black;
+  background-color: #E14D2A;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.main> div{
+
+  width: 38%;
+  height: 599px;
+  /*border: 1px solid black;*/
+  
+
+}
+
+.main-login-left{
+  background-image: url(images/pizza\ women.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-login-right{
+ background-color: white;
+}
+.main-login-right h1{
+  
+  padding-left:40px ;
+  font-size: 36px;
+  
+ 
+}
+
+ .main-login-right p{
+  
+  padding-left:40px ;
+  font-size: 18px;
+  
+ 
+ }
+
+ .main-login-right input{
+  
+  margin-left: 40px;
+  font-size: 15px;
+  
+ 
+}
+
+.main-login-right a{
+  
+  margin-left: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  color: gray;
+  
+ 
+}
+
+ .login{
+  width: 490px;
+  height: 55px;
+  border: 1px solid red;
+  background-color: #E14D2A;
+  color: white;
+  font-size: 16px;
+  margin-left: 40px;
+ }
+
+ .login:hover {
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  border: none;
+
+}
+
+.inputs{
+  border: none;
+  background-color: gainsboro;
+  width: 490px;
+  height: 55px;
+  
+  
+ }
+ .check{
+  border: 1px solid red;
+ }
